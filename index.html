@@ -90,11 +90,11 @@
     font-size: clamp(34px, 5.8vw, 60px);
     font-weight: 700;
     letter-spacing: -0.025em;
-    line-height: 1.08;
+    line-height: 1.1;
     margin-bottom: 18px;
-    min-height: 2.4em;
+    min-height: 3.4em;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
   .headline-wrap {
@@ -259,7 +259,7 @@
   @media (max-width: 720px) {
     .hero { padding: 60px 24px 48px; }
     .eyebrow { margin-bottom: 20px; font-size: 11px; }
-    h1 { margin-bottom: 14px; }
+    h1 { margin-bottom: 14px; min-height: 5em; }
     .role { margin-bottom: 28px; }
     .tagline { margin-bottom: 32px; }
     .pillars-grid { grid-template-columns: repeat(2, 1fr); gap: 24px 16px; }
@@ -309,15 +309,16 @@
 <script>
 (function () {
   const phrases = [
-    "I run the lab. I write the code.",
     "Production-grade AI, at agency scale.",
     "Tools that make the work move.",
+    "Repeatability creates predictability. Predictability creates reliability.",
     "Thirty years making creative production work better.",
-    "Building the AI build function."
+    "Building the AI building function.",
+    "I run the lab. I write the code."
   ];
 
   const TYPE_MS = 55;
-  const DELETE_MS = 28;
+  const DELETE_MS = 12;
   const HOLD_MS = 3200;
   const PAUSE_MS = 380;
 
