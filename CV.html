@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>David James Porter, CV</title>
-<meta name="description" content="David James Porter. Global Director of Technology Integration and AI Innovation, OLIVER. Founder and lead of OPTICAL.">
+<meta name="description" content="David James Porter. Global Director of AI Innovation and Technology Integration, OLIVER.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@8..144,100..900&display=swap" rel="stylesheet">
@@ -158,6 +158,17 @@
     line-height: 1.5;
   }
   .expertise .item strong { display: block; margin-bottom: 2px; }
+  .expertise-group { margin-bottom: 22px; }
+  .expertise-group:last-child { margin-bottom: 0; }
+  .expertise-subhead {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--blue-60);
+    margin: 0 0 10px;
+    padding: 0;
+  }
 
   /* EXPERIENCE */
   .role-block {
@@ -502,7 +513,7 @@
 
 <header class="hero">
   <h1>David James Porter</h1>
-  <p class="role">Global Director of Technology Integration and AI Innovation, OLIVER</p>
+  <p class="role">Global Director of AI Innovation and Technology Integration, OLIVER</p>
   <div class="contact">
     <span>203 Berkeley Road, River Edge, NJ</span>
     <a href="tel:+16462295035">+1 646 229 5035</a>
@@ -515,24 +526,35 @@
 
 <section class="summary">
   <h2>Summary</h2>
-  <p>A career operations and technology leader who runs the AI build function for a global creative agency, and writes the code himself. Across the last six years I've <strong>founded and led OPTICAL</strong> (the OLIVER Production Technology Innovation &amp; Creative Automation Lab), the agency's global team for integrations, special builds, workflow design, and AI tooling. In that time I've shipped a portfolio of <strong>300+ internal tools, agentic systems, MCP servers, and automation platforms</strong> that have served <strong>millions of user sessions</strong> and <strong>hundreds of millions of interactions</strong> for the agency's North America and global teams.</p>
-  <p>I came up through the production side of the industry, starting in pre-press and colour management in the UK in 1997, moving to New York in 2003, and running the US business as COO from 2016. Since 2020 my focus has been turning the agency into an AI-native organisation: standing up OPTICAL as the central lab studios come to for workflow, integrations, AI, and bespoke build, and creating the platforms that let creative, strategy, production, and operations teams ship faster and at scale.</p>
-  <p>I'm equally comfortable in front of a leadership team and inside a terminal. Deep, current expertise in <strong>Claude / OpenAI / Gemini APIs</strong>, agentic frameworks, <strong>MCP</strong>, <strong>Make.com</strong>, <strong>Dalim ES</strong>, and <strong>Box.com platform engineering</strong>.</p>
+  <p>A seasoned, hands-on operations and technology leader responsible for the AI research, development, and integration of a <strong>$500m global creative agency across 36 countries</strong>. I design and ship bespoke AI and automation solutions for the agency's largest accounts: a business-standards AI copywriting engine for a global retail bank; a multi-LLM synthetic-persona tool used across clients to run moderated and unmoderated virtual focus groups; the agency's flagship ideation platform built on 50 creativity techniques; and dozens more. <strong>Sales, business-development, and client-services teams across the agency's 36 markets pull me in directly when an account needs technology, automation, or AI built into the pitch or the delivery.</strong></p>
+  <p>Equally comfortable in front of a leadership team and inside a terminal. Deep, current expertise in <strong>Claude / OpenAI / Gemini APIs</strong>, agentic frameworks, <strong>MCP</strong>, <strong>Make.com</strong>, <strong>Dalim ES</strong>, and <strong>Box.com platform engineering</strong>.</p>
+  <p>Over the past six years I've shipped <strong>300+ tools, AI agentic systems, MCP servers, and automation platforms</strong> that have served <strong>millions of user sessions</strong> and <strong>hundreds of millions of interactions</strong> across the agency's global teams.</p>
 </section>
 
 <section>
   <h2>Areas of Expertise</h2>
-  <div class="expertise">
-    <div class="item"><strong>Agentic AI and LLM systems</strong>Multi-agent orchestration, RAG, MCP server design, prompt engineering at scale, model routing, cost-aware AI architecture.</div>
-    <div class="item"><strong>Make.com (expert)</strong>100+ live workflows across 15+ enterprise client accounts. File management, data transformation, multi-system orchestration, AI agents and assistants.</div>
-    <div class="item"><strong>Box.com (expert)</strong>Top-to-bottom administration of a 3,000+ user enterprise tenant. Custom Box apps integrating with Make.com, scripts, and AI tooling.</div>
-    <div class="item"><strong>Dalim ES (expert)</strong>Deep working knowledge of this bespoke creative-production platform (DAM plus workflow automation plus project management).</div>
-    <div class="item"><strong>Generative media</strong>Image, video, voice, sound pipelines using ComfyUI, Stable Diffusion, Veo, Runway, ElevenLabs, Topaz, FAL, Kling, Bria.</div>
-    <div class="item"><strong>Workflow automation</strong>Make.com, Dalim ES, webhook orchestration, watchdog services, headless browser automation (Playwright, Puppeteer, MCP-driven).</div>
-    <div class="item"><strong>Full-stack engineering</strong>FastAPI, Flask, Node.js, React, PHP, PostgreSQL, Redis, Docker.</div>
-    <div class="item"><strong>Enterprise integrations</strong>Box, Adobe AEM, Wrike, Airtable, Salesforce, SharePoint, OpenText, Workfront, Monday, Slack, Microsoft Graph.</div>
-    <div class="item"><strong>Content provenance and compliance</strong>C2PA stamping and verification, WCAG 2.1 / PDF accessibility, SSO, role-based access, audit trails.</div>
-    <div class="item"><strong>Production operations heritage</strong>Pre-press, colour management, IDEAlliance G7 Professional certified. 25+ years in high-end production.</div>
+  <div class="expertise-group">
+    <h3 class="expertise-subhead">Tools and Platforms</h3>
+    <div class="expertise">
+      <div class="item"><strong>AI models</strong>Anthropic Claude (Opus, Sonnet, Haiku), OpenAI (GPT-4, Assistants, Whisper, Vision), Google Gemini.</div>
+      <div class="item"><strong>Generative media</strong>ElevenLabs, Stable Diffusion / ComfyUI, Veo, Runway, Topaz, Kling, FAL, Bria.</div>
+      <div class="item"><strong>Make.com (expert)</strong>100+ live workflows across 15+ enterprise client accounts.</div>
+      <div class="item"><strong>Box.com (expert)</strong>3,000+ user enterprise tenant administration plus custom Box-app development.</div>
+      <div class="item"><strong>Dalim ES (expert)</strong>Deep working knowledge of this bespoke creative-production platform (DAM, workflow automation, project management).</div>
+      <div class="item"><strong>Enterprise integrations</strong>Adobe AEM, Wrike, Airtable, Salesforce, SharePoint, OpenText, Workfront, Monday, Slack, Microsoft Graph.</div>
+      <div class="item"><strong>Engineering stack</strong>FastAPI, Flask, Node.js, React, PHP, PostgreSQL, Redis, Docker.</div>
+      <div class="item"><strong>Dev tooling</strong>Claude Code (expert: hooks, skills, MCP, custom harness configs), Cursor, Playwright, Puppeteer.</div>
+    </div>
+  </div>
+  <div class="expertise-group">
+    <h3 class="expertise-subhead">Practices and Methods</h3>
+    <div class="expertise">
+      <div class="item"><strong>Agentic AI design</strong>Multi-agent orchestration, RAG, MCP server design, prompt engineering at scale.</div>
+      <div class="item"><strong>LLM economics</strong>Prompt caching, cost-aware model routing, balancing price against performance across providers.</div>
+      <div class="item"><strong>Workflow automation</strong>Webhook orchestration, watchdog services, headless browser automation, MCP-driven integrations.</div>
+      <div class="item"><strong>Content provenance and compliance</strong>C2PA stamping and verification, WCAG 2.1 / PDF accessibility, SSO, role-based access, audit trails.</div>
+      <div class="item"><strong>Production-operations heritage</strong>Pre-press, colour management, IDEAlliance G7 Professional certified. 25+ years in high-end production.</div>
+    </div>
   </div>
 </section>
 
@@ -543,37 +565,15 @@
     <div class="role-header">
       <p class="role-company">OLIVER Agency / Inside Ideas Group (The Brandtech Group)</p>
       <p class="role-meta">New York · January 2020 to Present</p>
-      <p class="role-title">Global Director of Technology Integration and AI Innovation</p>
+      <p class="role-title">Global Director of AI Innovation and Technology Integration</p>
     </div>
-    <p>Running the AI build function for OLIVER globally. <strong>Founded and lead OPTICAL</strong>, the <strong>OLIVER Production Technology Innovation &amp; Creative Automation Lab</strong>: a global team of SMEs that engages, develops, and expands the usage of best-in-class tools and process automation across the business. Studios come to OPTICAL for integrations, special builds, workflow design, and anything technical they need to deliver work better, faster, and at a stronger price point.</p>
-    <p>Personally architect and ship the production tools that connect the agency's creative, strategy, production, and operations teams to AI and automation, and roll them out across global client accounts.</p>
-
-    <div class="pillars">
-      <div class="pillar"><div class="label">OPTICAL delivers</div><div class="value">More Automation</div></div>
-      <div class="pillar"><div class="label">OPTICAL delivers</div><div class="value">More Predictability</div></div>
-      <div class="pillar"><div class="label">OPTICAL delivers</div><div class="value">More QC</div></div>
-      <div class="pillar"><div class="label">OPTICAL delivers</div><div class="value">Stronger Client Connections</div></div>
-    </div>
-
-    <div class="optical-box">
-      <div class="optical-title">OPTICAL · How the lab works</div>
-      <ul>
-        <li><strong>Automation as enablement, not replacement.</strong> The lab's philosophy is that automation isn't about replacing people; it's about enabling them to add value to clients at a much faster pace.</li>
-        <li><strong>Joined-up tools, not silos.</strong> Every tool reviewed against process fit, client fit, and technology fit, and against integration with current and future IT roadmaps and the OMG landscape, so what's built for one client can be redeployed to the next easily and repeatably.</li>
-        <li><strong>Repeatable 10-point methodology</strong> for assessing, piloting, and deploying new products, from initial research through to large-scale rollout across the business and clients.</li>
-        <li><strong>Global team of subject-matter experts.</strong> Each an SME in their own field, all aligned to the lab's overall goal: world-class best practice at speed, on time, at a competitive price point.</li>
-      </ul>
-    </div>
+    <p>The agency's senior technical resource for AI, automation, and bespoke client builds. I design and ship the production tools that connect creative, strategy, production, and operations teams to AI and automation, and embed them into pitches and live client work across the agency's 36 markets.</p>
 
     <h4>Selected outcomes</h4>
     <ul>
-      <li><strong>Founded OPTICAL</strong> and built it into the agency's central technical capability. Set the remit, hired the team, defined the 10-point methodology, and embedded the lab into the OMG and IT roadmaps so every new tool ships joined-up rather than as a silo.</li>
-      <li>Designed and shipped <strong>300+ internal tools, platforms, and integrations</strong> in active use across the business and client accounts.</li>
-      <li>Tools have served <strong>millions of user sessions</strong> and <strong>hundreds of millions of interactions</strong>: chats, agent runs, generations, and automated workflow events.</li>
-      <li>Established the agency's <strong>MCP and agentic-framework foundations</strong>, enabling other teams to compose Claude-powered tools into their own workflows.</li>
-      <li>Built and run the <strong>Make.com practice</strong>: 100+ workflows live in production, serving 15+ enterprise client accounts across file management, data transformation, and AI agents and assistants.</li>
-      <li>Administer the agency's <strong>Box.com tenant for 3,000+ users</strong>, including custom Box-app development that ties Box into Make.com, internal scripts, and AI tooling.</li>
-      <li>Established the deployment patterns (Docker Compose, shared optical-dev host, Apache vhost, systemd services, Azure AD SSO) that internal apps now standardise on.</li>
+      <li><strong>Designed and shipped the bespoke AI builds the agency's largest accounts now depend on</strong>, including an AI copywriting engine built to a global retail bank's business standards, a multi-LLM synthetic-persona platform for virtual focus groups used across clients, and the agency's flagship ideation platform built on 50 creativity techniques.</li>
+      <li><strong>Trusted technology partner for global sales, business-development, and client-services teams.</strong> Pulled into pitches and accounts whenever technology, automation, or AI is on the table.</li>
+      <li><strong>Established the agency's MCP and agentic-framework foundations</strong>, and built the Make.com practice (100+ workflows live for 15+ enterprise client accounts) and Box.com platform (3,000+ user tenant with custom Box-app development) that other teams now build on top of.</li>
     </ul>
   </div>
 
@@ -583,126 +583,74 @@
       <p class="role-meta">New York · January 2016 to January 2020</p>
       <p class="role-title">Chief Operating Officer, North America</p>
     </div>
-    <p>Ran North America operations for OLIVER and parent Inside Ideas Group (now part of The Brandtech Group). P&amp;L, delivery, hiring, client services, and operating model for the US business across the period the region scaled significantly. Stepped out of the COO seat in January 2020 to take on the global Technology Integration and AI Innovation remit.</p>
+    <p>Ran North America operations for OLIVER and parent Inside Ideas Group (now part of The Brandtech Group). P&amp;L, delivery, hiring, client services, and operating model for the US business across the period the region scaled significantly. Stepped out of the COO seat in January 2020 to take on the global AI Innovation and Technology Integration remit.</p>
   </div>
 
   <div class="role-block">
     <div class="role-header">
-      <p class="role-company">Tag Worldwide (USA)</p>
-      <p class="role-meta">New York · April 2014 to December 2015</p>
-      <p class="role-title">Managing Director, Tag Production Operations</p>
+      <p class="role-company">Tag Worldwide</p>
+      <p class="role-meta">United Kingdom and New York · 1997 to 2015</p>
+      <p class="role-title">Final title: Managing Director, Tag Production Operations</p>
     </div>
-    <p>Promoted to lead production operations across Tag's entire US business through the period the company sat inside Williams Lea (subsequently a DHL group company) and the build-up to OLIVER. End-to-end accountability for studio output, technology, systems, and client delivery for some of the largest brand-marketing programmes in North America.</p>
+    <p>Eighteen years scaling Tag's production businesses, first in the UK from 1997 and then in the US from 2003. Built the US operation from three people to thousands and ran it through every stage from start-up to enterprise scale. Roles progressed from Pre-Press / Production Lead, through Production Director and General Manager USA, to Managing Director of Tag Production Operations.</p>
     <ul>
-      <li>Owned the operating model that kept hundreds of concurrent jobs flowing through pre-press, colour, studio, and digital production every day.</li>
-      <li>Drove the technology and IT roadmap supporting production: the systems, integrations, and automation that determined how efficiently work moved from brief to delivery.</li>
-      <li>Set the production-operations standards (colour, pre-press, QA, delivery SLAs) that the US business was measured against. Partnered with the global delivery centre to extend capacity offshore without compromising client output.</li>
-      <li>Hand-off into OLIVER in 2016 carried the same operating model and team structure I'd built through this period.</li>
-    </ul>
-  </div>
-
-  <div class="role-block">
-    <div class="role-header">
-      <p class="role-company">Tag Worldwide (USA)</p>
-      <p class="role-meta">New York · January 2012 to April 2014</p>
-      <p class="role-title">General Manager, USA</p>
-    </div>
-    <p>Stepped up from Production Director to run the US business across operations, commercial, technology, HR, and client services. Every function except finance.</p>
-    <ul>
-      <li>Took the US business through a period of rapid growth, scaling headcount and revenue materially year-on-year.</li>
-      <li>Re-shaped the org to support enterprise client programmes, building the leadership bench across production, IT, and account management that the company would later run on.</li>
-      <li>Personally led the largest client relationships through commercial negotiation, scope build, and delivery escalation.</li>
-      <li>Continued to own production-technology and systems strategy alongside the commercial role. The technology stack and the business plan stayed coupled.</li>
-    </ul>
-  </div>
-
-  <div class="role-block">
-    <div class="role-header">
-      <p class="role-company">Tag Worldwide (USA)</p>
-      <p class="role-meta">New York · 2003 to January 2012</p>
-      <p class="role-title">Production Director, USA</p>
-    </div>
-    <p>Moved from Tag's UK operation to New York in 2003, when there were <strong>three people in the US company</strong>. Over the next nine years I helped build it into a US operation employing <strong>thousands of people</strong>, becoming one of the largest brand-marketing production businesses in the country. This is where I learned to scale.</p>
-    <ul>
-      <li><strong>Founded the US production capability</strong>: pre-press, colour management, studio operations, technology, IT, and delivery, and ran it as the business grew through every order of magnitude from start-up to enterprise scale.</li>
-      <li><strong>Built the scalable workflows</strong> the company ran on for the next two decades: brief intake, asset routing, version control, proofing, colour-managed output, multi-channel delivery. The same operating logic I now express in code with Make.com, Box, and Dalim ES, I first built on paper and in print-production systems here.</li>
-      <li><strong>Managed teams across IT, production, and delivery simultaneously</strong>, recruiting, training, and developing the leaders who in turn ran their own functions as headcount grew. Many of those people are still senior leaders in the industry today.</li>
-      <li><strong>Owned the production-technology stack end-to-end</strong>: pre-press systems, colour management (IDEAlliance G7 certification dates from this period), DAM, asset routing, integration between studio tools and client systems. Maintaining and evolving these systems so that work was always delivered in the most efficient way was the core of the role.</li>
-      <li><strong>Delivered for some of the largest brand-marketing programmes in the country</strong>: high-volume, high-stakes, deadline-critical creative production where the only acceptable failure rate was zero.</li>
-      <li>The operating model, the bench of leaders, and the production-technology DNA built in this period are the foundation everything I've done since (at Tag, at OLIVER, and in the AI build function I lead today) has been built on top of.</li>
-    </ul>
-  </div>
-
-  <div class="role-block">
-    <div class="role-header">
-      <p class="role-company">Tag Worldwide (UK)</p>
-      <p class="role-meta">United Kingdom · 1997 to 2003</p>
-      <p class="role-title">Pre-Press / Production Lead</p>
-    </div>
-    <p>Joined Tag in the UK in 1997 and learned the craft of high-end production from the inside out: pre-press, colour management, retouching, proofing, and studio operations on demanding global brand work. Six formative years that established the production-technology foundations I went on to scale in the US.</p>
-    <ul>
-      <li>Built deep technical command of pre-press, colour, and production systems that has stayed with me through every role since.</li>
-      <li>Earned a reputation for solving production problems other people walked away from. The basis for the move to New York to set up Tag's US business in 2003.</li>
+      <li><strong>Founded Tag's US production capability</strong> and ran it as one of the country's largest brand-marketing production businesses, delivering high-volume, deadline-critical work for the largest brand programmes in the country.</li>
+      <li><strong>Built the scalable workflows</strong> the company ran on for two decades: brief intake, asset routing, version control, proofing, colour-managed output, multi-channel delivery. The same operating logic I now express in code with Make.com, Box, and Dalim ES.</li>
+      <li><strong>Managed teams across IT, production, and delivery simultaneously</strong>, developing the leadership bench the business ran on. Many of those people are still senior leaders in the industry today.</li>
+      <li><strong>Owned the production-technology stack end-to-end</strong> (pre-press, colour management, DAM, asset routing). IDEAlliance G7 certification dates from this period.</li>
     </ul>
   </div>
 </section>
 
 <section class="projects-section">
   <h2>Selected Projects</h2>
-  <p style="font-size:14px; color:var(--blue-60); margin-bottom:18px;">A representative cross-section of production systems I've designed and built. Client names are anonymised; full portfolio held internally.</p>
+  <p style="font-size:14px; color:var(--blue-60); margin-bottom:18px;">A representative cross-section. Each opens with the value delivered, then the build. Client names are anonymised.</p>
+
+  <h3>Bespoke Client and Flagship AI Solutions</h3>
+  <div class="project"><span class="name">AI Copywriting Engine for a global retail bank.</span> Brand-compliant AI copy at scale for a regulated industry where every line must meet voice, tone, and risk standards. Custom-built around the bank's business standards so generated copy ships without manual rework.</div>
+  <div class="project"><span class="name">Synthetic Persona Tool.</span> Virtual focus groups that scale qualitative testing across clients without recruitment cost or scheduling lag. Multi-LLM platform that runs moderated or unmoderated focus groups with multiple personas across different LLMs, or single-persona single-LLM interviews. Used across client accounts to pressure-test creative work, messaging, and product hypotheses.</div>
+  <div class="project"><span class="name">Creative Sparkplug.</span> Structured ideation engine the agency's creative teams use to generate fresh thinking on demand. Built around 50 creativity techniques; generates, combines, and pressure-tests ideas through a curated library of creative methods, producing usable directions rather than generic AI brainstorming.</div>
 
   <h3>Agentic Platforms and Multi-Agent Systems</h3>
-  <div class="project"><span class="name">Sales Operations Platform (OSOP).</span> End-to-end RFP-to-pitch pipeline for the agency's commercial team. 17-stage state machine. FastAPI plus React plus PostgreSQL, per-call Claude cost tracking, CRM and SharePoint integration. 100+ tests passing.</div>
-  <div class="project"><span class="name">Multi-Agent Social Reporting Pipeline.</span> Four-agent workflow (Data Mapper, Input Collector, Strategy Writer, Report Builder) that turns monthly Meltwater / Meta exports into standalone HTML decks. React, FastAPI, Postgres, Redis, MinIO. WebSocket event streaming, human-in-the-loop checkpoints, autonomous-mode auto-advance.</div>
-  <div class="project"><span class="name">Programme Pulse.</span> Conversational agent over Airtable programme data. Streams Claude responses, generates two-tier Word reports, ingests meeting transcripts as supporting context.</div>
-  <div class="project"><span class="name">Agent Architect / Agent Registry / AI Project Registration.</span> Internal frameworks for registering, discovering, and standing up new agentic projects across the business.</div>
+  <div class="project"><span class="name">Sales Operations Platform (OSOP).</span> An end-to-end pitch pipeline that lets the agency's commercial team scope, price, and respond to RFPs faster and more defensibly. 17-stage state machine (intake, qualification, asset matching, ratecard, delivery model, team shape, caveats, approval gates, pitch). FastAPI plus React plus PostgreSQL, per-call Claude cost tracking, CRM and SharePoint integration. 100+ tests passing.</div>
+  <div class="project"><span class="name">Multi-Agent Social Reporting Pipeline.</span> Turns a multi-day manual reporting cycle into a one-click pipeline that produces standalone client decks. Four-agent workflow (Data Mapper, Input Collector, Strategy Writer, Report Builder) ingesting Meltwater / Meta exports. React, FastAPI, Postgres, Redis, MinIO. WebSocket event streaming, human-in-the-loop checkpoints.</div>
+  <div class="project"><span class="name">Programme Pulse.</span> Leadership-grade reporting on programme health, on demand, from existing operational data. Conversational agent over Airtable programme data (tasks plus resource bookings). Streams Claude responses, generates two-tier Word reports, ingests meeting transcripts as supporting context.</div>
+  <div class="project"><span class="name">Agent Architect / Agent Registry / AI Project Registration.</span> Internal frameworks that let teams stand up new agentic projects without reinventing the foundations. Discovery, registration, and a shared launchpad for the agency's agentic-AI builds.</div>
 
   <h3>MCP and Developer Frameworks</h3>
   <div class="project"><span class="name">Playwright-MCP / Puppeteer-MCP.</span> Browser-automation MCP servers powering automated PDF retrieval and form-driven workflows on partner platforms at scale.</div>
   <div class="project"><span class="name">Claude Code skills and harness configurations.</span> Distributed internal Claude Code skills, hooks, and settings packs so the wider dev community can stand up Claude-powered tools with sane defaults.</div>
-  <div class="project"><span class="name">Custom MCP servers.</span> Built and maintained MCP servers exposing internal data sources (programme data, asset libraries, briefs) to LLM clients across the business.</div>
+  <div class="project"><span class="name">Custom MCP servers.</span> Expose internal data sources (programme data, asset libraries, briefs) to LLM clients across the business so agents can act on agency context safely.</div>
 
   <h3>Generative Media and Creative AI</h3>
-  <div class="project"><span class="name">ComfyUI Connector Pro (V1 to V4).</span> Professional PHP / React interfaces for Stable Diffusion via the ComfyUI API. Multi-server failover, workflow management, admin dashboard. Branded variants deployed for major automotive and PC-manufacturer accounts.</div>
-  <div class="project"><span class="name">Video Optimiser.</span> FFmpeg-driven optimisation across 21 platform configs. Codec recommendations (H264, H265, VP9), 25 to 40 percent file-size reduction, side-by-side comparison. Built for a global beauty and cosmetics group.</div>
+  <div class="project"><span class="name">ComfyUI Connector Pro (V1 to V4).</span> Made Stable Diffusion image generation usable by non-technical creative teams at scale. Multi-server PHP / React interface with failover, workflow management, admin dashboard. Branded variants deployed for major automotive and PC-manufacturer accounts.</div>
+  <div class="project"><span class="name">Video Optimiser.</span> 25 to 40 percent file-size reduction on social-media video for a global beauty and cosmetics group, with no perceptible loss of quality. FFmpeg-driven optimisation across 21 platform configs (Meta, Pinterest, Snapchat, TikTok, YouTube, Amazon). Codec recommendations (H264, H265, VP9), side-by-side comparison.</div>
   <div class="project"><span class="name">SmartCrop 2026.</span> AI-powered batch image cropping pipeline.</div>
-  <div class="project"><span class="name">Sound Effect Generator.</span> ElevenLabs text-to-SFX with Azure AD SSO, duration and influence controls, real-time playback, MP3 export.</div>
-  <div class="project"><span class="name">Veo 3 / Runway / Topaz / Kling integrations.</span> Production wrappers for video-gen and upscaling APIs.</div>
-  <div class="project"><span class="name">Image Gen V2.0, Banner Creator, Beverage Product Generator, Insight Summariser, Creative Sidekick.</span> Brand-facing creative AI tools.</div>
+  <div class="project"><span class="name">Sound Effect Generator.</span> Agency-wide self-serve sound design without leaving the browser. ElevenLabs text-to-SFX with Azure AD SSO, duration and influence controls, real-time playback, MP3 export.</div>
+  <div class="project"><span class="name">Veo 3 / Runway / Topaz / Kling integrations.</span> Production wrappers for video-gen and upscaling APIs, deployed inside the agency stack.</div>
+  <div class="project"><span class="name">Image Gen V2.0, Banner Creator, Beverage Product Generator, Insight Summariser.</span> Brand-facing creative AI tools tailored to specific account workflows.</div>
 
-  <h3>Brand and Client-Specific Tools (anonymised)</h3>
-  <div class="project"><span class="name">DAM Naming and AEM Structuring Tool.</span> File-naming system for a global floorcare brand's Adobe Experience Manager workflow. Dual-output (production plus DAM), 8-step product wizard, 56+ fields per product.</div>
-  <div class="project"><span class="name">Wrike Integration Suite.</span> Watchdog-based Python services importing JSON job specs into Wrike, with daily HTML email reports and duplicate prevention. Deployed under systemd in production for a global floorcare brand.</div>
-  <div class="project"><span class="name">Beauty-Group Integration Suite.</span> For a global beauty and cosmetics group: Airtable creative-ops pipeline, file-reduction tooling, PSD text extraction, SLA calculator, taxonomy tool, USA naming standardisation, Lytho API integration, master entry.</div>
+  <h3>Brand-Specific Tools (anonymised)</h3>
+  <div class="project"><span class="name">DAM Naming and AEM Structuring Tool.</span> Eliminated naming inconsistencies on a global floorcare brand's Adobe Experience Manager workflow that were costing the production team hours per asset. Dual-output (production plus DAM), 8-step product wizard, 56+ fields per product.</div>
+  <div class="project"><span class="name">Wrike Integration Suite.</span> Automated job-spec ingestion into Wrike for a global floorcare brand, with daily HTML email reports and duplicate prevention. Watchdog-based Python services deployed under systemd in production.</div>
+  <div class="project"><span class="name">Beauty-Group Integration Suite.</span> Connected the creative-ops stack end-to-end for a global beauty and cosmetics group. Airtable creative-ops pipeline, file-reduction tooling, PSD text extraction, SLA calculator, taxonomy tool, USA naming standardisation, Lytho API integration, master entry.</div>
   <div class="project"><span class="name">OMG Brief Asset Downloader.</span> Playwright-driven retrieval of approved-brief PDFs at scale for a global premium spirits group.</div>
-  <div class="project"><span class="name">Activation Calendar Helpers.</span> Brand-tailored variants for a global premium spirits group and other accounts.</div>
-  <div class="project"><span class="name">Brand-specific AI assistants.</span> Production assistants, taxonomy and metadata tools, copy-proofing, and authentication-bound bots delivered for global beauty, premium spirits, sportswear, automotive, PC-and-print, pharmaceutical, confectionery, FMCG, retail-banking, financial-news-publishing, asset-management, and industrial / healthcare clients.</div>
-
-  <h3>Activation Calendar and Brief Tooling</h3>
-  <div class="project"><span class="name">AC-Helper (Activation Calendar Helper).</span> AI-driven marketing-deliverable scheduling powered by Gemini NLP. Web spreadsheet UI, 3-level hierarchy, JSON auto-save, multi-sheet, autonomous-mode option.</div>
-  <div class="project"><span class="name">Brief Challenge / Brief Builder / Scope Builder.</span> Brief authoring, scope construction, and brief-quality tooling.</div>
+  <div class="project"><span class="name">Activation Calendar Helpers.</span> Brand-tailored variants of an AI-driven scheduling tool for a global premium spirits group and other accounts.</div>
 
   <h3>Content Provenance, Compliance and Accessibility</h3>
-  <div class="project"><span class="name">C2PA Stamping and Verification (2025 / 2026).</span> Full-stack content-credentials platform. Node.js 22, React 19, Fastify 5, PostgreSQL. 11 file formats. AES-256-GCM certificate encryption, role-based access, custom metadata.</div>
-  <div class="project"><span class="name">PDF Accessibility Checker, Enterprise Edition.</span> AI-powered WCAG 2.1 compliance. Claude 3.5 Sonnet for image analysis, Google Cloud Vision OCR, 30+ criteria, auto-remediation engine, around $0.10 per document, 95 percent automated coverage. Web, API, and CLI interfaces.</div>
+  <div class="project"><span class="name">C2PA Stamping and Verification (2025 / 2026).</span> Cryptographically signed content credentials for client work, in an industry where provenance is increasingly required. Full-stack platform: Node.js 22, React 19, Fastify 5, PostgreSQL. 11 file formats. AES-256-GCM certificate encryption, role-based access, custom metadata.</div>
+  <div class="project"><span class="name">PDF Accessibility Checker, Enterprise Edition.</span> Automated WCAG 2.1 compliance at around $0.10 per document with 95 percent automated coverage. Claude 3.5 Sonnet for image analysis, Google Cloud Vision OCR, 30+ criteria, auto-remediation engine. Web, API, and CLI interfaces.</div>
 
   <h3>Internal Platforms, Reporting and Admin</h3>
-  <div class="project"><span class="name">Sandbox Portal.</span> The agency's internal AI tool portal: usage analytics across video-gen, text-to-image, text-to-voice, translation, and video query. PHP web UI plus Python automation, Azure AD SSO, SMTP reporting, cost tracking.</div>
-  <div class="project"><span class="name">LibreChat Balance Manager.</span> Token-balance admin dashboard. Multi-user, HMAC-signed email approval links, audit trail, CSV export, bulk operations.</div>
-  <div class="project"><span class="name">LLM Reporting Suite.</span> Surfaces AI usage, model spend, and adoption to leadership across the business.</div>
-  <div class="project"><span class="name">HR Bot, People Team Assistant, Policy Bot, Salary Benchmark, Job Description Bot, AI and InfoSec completion tracker.</span> Internal bots automating HR, legal, and people-ops tasks.</div>
+  <div class="project"><span class="name">Sandbox Portal.</span> Single pane of glass for the agency's AI tool usage, spend, and adoption. PHP web UI plus Python automation, Azure AD SSO, SMTP reporting, cost tracking across video-gen, text-to-image, text-to-voice, translation, and video query.</div>
+  <div class="project"><span class="name">LibreChat Balance Manager.</span> Token-balance governance for the agency's internal Claude tenant. Multi-user, HMAC-signed email approval links, audit trail, CSV export, bulk operations.</div>
+  <div class="project"><span class="name">LLM Reporting Suite.</span> Leadership-facing reporting on AI usage, model spend, and adoption across the business.</div>
+  <div class="project"><span class="name">HR Bot, People Team Assistant, Policy Bot, Salary Benchmark, Job Description Bot, AI and InfoSec completion tracker.</span> Internal bots automating HR, legal, and people-ops tasks that previously consumed real headcount.</div>
 
   <h3>Workflow Automation and Integrations</h3>
-  <div class="project"><span class="name">Make.com agency practice.</span> 100+ live workflows for 15+ enterprise client accounts. File ingestion and routing, metadata transformation, asset preparation, cross-system orchestration (Box, Wrike, Airtable, Workfront, AEM, OpenText), and AI-agent / assistant workflows that route LLM calls through guardrailed business logic.</div>
+  <div class="project"><span class="name">Make.com agency practice.</span> 100+ live workflows for 15+ enterprise client accounts. File ingestion and routing, metadata transformation, asset preparation, cross-system orchestration (Box, Wrike, Airtable, Workfront, AEM, OpenText), and AI-agent workflows that route LLM calls through guardrailed business logic.</div>
   <div class="project"><span class="name">Box.com platform engineering.</span> Custom Box apps and integrations powering tools, scripts, and Make scenarios across the 3,000-user tenant.</div>
   <div class="project"><span class="name">Dalim ES integrations.</span> Production integrations with Dalim ES for asset, proofing, and workflow automation across creative-production accounts.</div>
-  <div class="project"><span class="name">Wrike / Airtable / Workfront / Box / OpenText / Adobe AEM / OMG.</span> Watchdog services, webhook capture, batch importers, and daily-report harnesses across the agency stack.</div>
-
-  <h3>Other Notable Builds</h3>
-  <div class="project"><span class="name">Bitcoin Trading Bot.</span> Coinbase auto-trader with trailing-stop wealth preservation, Raspberry Pi kiosk dashboard, Slack and email alerts.</div>
-  <div class="project"><span class="name">NPI / NPI 2026.</span> New-Product-Introduction platform.</div>
-  <div class="project"><span class="name">FIFA World Cup 2026 Bracket.</span> Multi-user prediction app with PostgreSQL, knockout bracket, leaderboard.</div>
-  <div class="project"><span class="name">Notetaker (Swift plus web), Speech-to-Text SRT/VTT, MS Translator wrapper, DeepL.</span> Meeting and language tooling.</div>
 </section>
 
 <section>
@@ -722,16 +670,8 @@
   <div class="education-item"><strong>Sir Frederic Osborn School</strong>Welwyn Garden City, UK.</div>
 </section>
 
-<section>
-  <h2>Selected Recommendations</h2>
-  <blockquote>
-    "David is an exceptionally talented and knowledgeable production and operations expert who played an instrumental part in establishing and growing our US business... an immense support in our initiative to leverage our Global Delivery Centre platform."
-    <span class="attrib">Penri Jones, former colleague (Tag Worldwide)</span>
-  </blockquote>
-  <blockquote>
-    "Dave is a true renaissance man. From sales to customer relations, high-end print production to end-user technical support, Dave knows every facet of his business inside and out. I have never encountered someone so competent at and dedicated to accomplishing any and every task put before him. And if you task him with something he doesn't know, in no time flat Dave will be showing you how you can do it more successfully and more efficiently."
-    <span class="attrib">Shaun McAllister, former direct report (Tag Worldwide)</span>
-  </blockquote>
+<section style="text-align:center; padding-top:8px;">
+  <p style="font-size:13.5px; color:var(--blue-60); margin:0;">Endorsements available on <a href="https://www.linkedin.com/in/dporter3/" target="_blank" rel="noopener">LinkedIn</a>.</p>
 </section>
 
 <!-- Easter egg: link back to the home page so PDF readers can return to the site -->
